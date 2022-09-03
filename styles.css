@@ -1,0 +1,32 @@
+:root {
+    --color-white: white;
+    --theme-brand-primary: #3D8618;
+    --theme-brand-50: #F6FCF3;
+    --theme-brand-100: #EDF8E7;
+    --theme-brand-200: #E2F3D8;
+    --theme-brand-300: #D3ECC6;
+    --theme-brand-400: #C1E3B0;
+    --theme-brand-500: #97CB7C;
+    --theme-brand-600: #4C9825;
+    --theme-brand-650: #3D8618;
+    --theme-brand-700: #2C700A;
+    --theme-brand-800: #1B5200;
+    --theme-brand-900: #113800;
+}
+
+body {
+    margin: 0;
+    font-family: "bio-sans";
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #495057;
+    text-align: left;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbar-logo img {
+    padding: 10px;
+    height: 37px;
+}
