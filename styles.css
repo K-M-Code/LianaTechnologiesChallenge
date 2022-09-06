@@ -23,5 +23,14 @@ h1::selection {
 
 .navbar-logo {
     padding: 10px;
-    height: 37px;
+    height:25px !important;
+}
+
+.hero {
+    text-align: center;
+}
+.hero-heading p {
+    font-size: 50rem;
+    font-weight: 800;
+    line-height: 1.2;
 }
