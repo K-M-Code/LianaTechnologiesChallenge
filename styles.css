@@ -1,7 +1,18 @@
+/* 
+Table of Contents
+
+1. Main Declarations
+2. 
+
+*/
+
+/* 1. Main Declarations */
+
 :root {
     --color-white: white;
     --color-primary: #3D8618;
     --color-secondary: #495057;
+    --color-tertiary: #4c8930;
 } 
 
 body {
@@ -14,23 +25,73 @@ body {
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
 }
 
-h1::selection {
+::selection {
     color: #fff;
     background-color: #3D8618 !important;
 }
 
+.color-white {
+    color: var(--color-white);
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-secondary {
+    color: var(--color-secondary)
+
+}
+
+.color-tertiary {
+    color: var(--color-tertiary);
+}
+
+.bg-white {
+    background-color: var(--color-white) !important;
+}
+
+.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--color-secondary) !important;
+}
+
+.bg-tertiary {
+    background-color: var(--color-tertiary) !important;
+}
+
+
+.topbar .dropdown-menu {
+    /* position: relative; */
+    z-index: 9999;
+}
+
+
 .navbar-logo {
     padding: 10px;
-    height:25px !important;
+    height:55px;
 }
 
 .hero {
     text-align: center;
 }
-.hero-heading p {
-    font-size: 50rem;
-    font-weight: 800;
+
+.parallax-section .parallax {
+    height: 500px;
+}
+
+
+
+.hero .hero-heading {
+    color: var(--color-white);
+    font-size: 2rem;
+    font-weight: 600;
     line-height: 1.2;
+    text-align: center;
 }

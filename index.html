@@ -25,12 +25,12 @@
 
 
     <!-- Stylesheet Import -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 
     <title>Liana Technologies - Recruitment Demo</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="/images/lianatech_logo.svg" alt="Liana Technologies Logo" class="navbar-logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,16 +51,61 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> -->
+
+      <header class="multi-navbar multi-navbar-expand-lg">
+        <div class="topbar bg-primary collapsable justify-content-between">
+            <ul>
+            </ul>
+            <ul>
+                <li>News</li>
+                <li>Intranet</li>
+                <li>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </li>
+            </ul>
+        </div>
+        <nav class="bg-primary justify-content-between">
+            <a class="multi-navbar-brand" href="index.html">BRAND'S PLACE</a>
+            <ul>
+                <li><a href="#">...</a></li>
+                <li><a href="#">...</a></li>
+                <li><a href="#products" class="dropdown-toggle">Products</a>
+                    <ul>
+                        <li><a href="#product-1">Product 1</a></li>
+                        <li><a href="#product-2">Product 2</a></li>
+                        <li><a href="#product-3">Another product</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">...</a></li>
+                <li><a href="#">...</a></li>
+                <li><a href="#">...</a></li>
+            </ul>
+        </nav>
+    </header>
 
       <section class="hero">
-        <div class="hero-heading"><p>Software fueling digital marketing</p></div>
-        <button type="button" class="btn btn-success">Learn More</button>
+        <div class="parallax-section">  
+          <div class="parallax py-7" data-speed="0.2" data-img-src="images/topbanner2.png">
+            <div class="hero-heading"><p>Software fueling digital marketing</p></div>
+            <button type="button" class="btn btn-success">Learn More</button>
+          </div>
+        </div>
       </section>
 
       <section class="infographics">
         <div class="linking">
           <div class="row">
+            <!-- lorem5000 -->
             
           </div>
         </div>
