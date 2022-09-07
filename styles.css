@@ -103,3 +103,10 @@ body {
 .maintxt > img, .overlay-text {
     position: absolute;
 }
+
+
+
+.icon-counter {
+    display: block;
+    padding: 2rem;
+}
