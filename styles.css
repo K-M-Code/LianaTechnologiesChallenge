@@ -13,6 +13,7 @@ Table of Contents
     --color-primary: #3D8618;
     --color-secondary: #495057;
     --color-tertiary: #4c8930;
+    --counter-TimeSeconds: 2;
 } 
 
 body {
@@ -66,10 +67,10 @@ body {
 }
 
 
-.topbar {
-    /* position: relative; */
-    /* z-index: 9999; */
-}
+/* .topbar {
+    position: relative; */
+    /* z-index: 9999;
+} */
 
 
 .navbar-logo {
