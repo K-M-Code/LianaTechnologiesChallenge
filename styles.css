@@ -13,6 +13,7 @@ Table of Contents
     --color-primary: #3D8618;
     --color-secondary: #495057;
     --color-tertiary: #4c8930;
+    --counter-TimeSeconds: 2;
 } 
 
 body {
@@ -26,6 +27,7 @@ body {
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
     overflow-x: hidden;
+    width: 100%;
 }
 
 ::selection {
@@ -67,7 +69,7 @@ body {
 
 
 /* .topbar {
-    position: relative;
+    position: relative; 
     z-index: 9999;
 } */
 
@@ -101,4 +103,11 @@ body {
 }
 .maintxt > img, .overlay-text {
     position: absolute;
+}
+
+
+
+.icon-counter {
+    display: block;
+    padding: 2rem;
 }
