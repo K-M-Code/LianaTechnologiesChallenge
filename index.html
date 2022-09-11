@@ -75,7 +75,7 @@
       <ul>
         <li>News</li>
         <li>Intranet</li>
-        <div class="btn-group px-5 m-5">
+        <!-- <div class="btn-group px-5 m-5">
           <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             In English
           </button>
@@ -86,7 +86,7 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Separated link</a></li>
           </ul>
-        </div>
+        </div> -->
       </ul>
     </div>
     <nav class="bg-white px-5 justify-content-between align-items-center menu-main"><ul>
@@ -100,111 +100,103 @@
       <ul>
         <div class="input-group">
           <input type="email" class="form-control btn-outline-success" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1" required>
-          <button class="btn btn-success" type="button" id="button-addon2">Search</button>
+          <button class="btn bg-primary color-white" type="button" id="button-addon2">Search</button>
         </div>
       </ul>
     </nav>
   </header>
 
   <section class="hero">
-    <div class="parallax-section">
+    <div class="parallax-section text-center">
       <div class="parallax py-7" data-speed="0.2" data-img-src="images/topbanner2.png">
         <div class="hero-heading">
-          <p>Software fueling digital marketing</p>
+          <p class="color-white">Software fueling digital marketing</p>
         </div>
-        <button type="button" class="btn btn-success">Learn More</button>
+        <button type="button" class="btn color-white bg-primary px-3 py-2">Learn more</button>
       </div>
     </div>
   </section>
 
+  <div class="p-5"></div>
+
   <section class="infographics">
-    <div class="linking">
+    <div class="container text-center d-block">
       <div class="row">
-        <!-- lorem5000 -->
-        <div class="container text-center">
-          <div class="row p-5 mx-5">
-            <div class="col">
-              <img src="images/image1.png" class="rounded" alt="...">
-            </div>
-            <div class="col">
-              <img src="images/image2.png" class="rounded" alt="...">
-            </div>
-            <div class="col">
-              <img src="images/image3.png" class="rounded" alt="...">
-            </div>
+        <div class="col-lg-4 col-sm-12 p-2 info-container">
+          <img src="images/image1.png" class="info-image rounded" alt="...">
+          <p class="info-text color-white">Company</p>
+        </div>
+        <div class="col-lg-4 col-sm-12 p-2 info-container">
+          <img src="images/image2.png" class="rounded" alt="...">
+          <p class="info-text color-white">Products</p>
+        </div>
+        <div class="col-lg-4 col-sm-12 p-2 info-container">
+          <img src="images/image3.png" class="rounded" alt="...">
+          <p class="info-text color-white">Contact Us</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="counter-section" id="counter">
+    <div class="justify-content-center">
+      <div class="row text-center">
+        <div class="col-lg-4 col-sm-12 d-flex counter-box">
+          <div class="icon-counter">
+            <i class="fas fa-solid fa-suitcase fa-4x"></i>
+          </div>
+          <div class="icon-text">
+            <span class="counter" data-target="3000"></span>
+            <p class="text-counter">Clients</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 d-flex counter-box">
+          <div class="icon-counter">
+            <i class="fas fa-user fa-4x"></i>
+          </div>
+          <div class="icon-text">            
+            <span class="counter" data-target="180"></span>
+            <p class="text-counter">Employees</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 d-flex counter-box">
+          <div class="icon-counter">
+            <i class="fas fa-globe-americas fa-4x"></i>
+          </div>
+          <div class="icon-text">
+            <span class="counter" data-target="10000"></span>
+            <p class="text-counter">Daily users</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- <div class="container"> 
-        <div class="row"> 
-          <div class="col-md-6"> 
-            <img src="images/image1.png" alt="test" class="img-responsive"> 
-            <div class="carousel-caption"> 
-              <h1>Example headline.</h1> 
-            </div> 
-          </div> 
-          <div class="col-md-6"> 
-            <img src="images/image1.png" alt="test" class="img-responsive"> 
-            <div class="carousel-caption"> 
-              <h1>Example headline.</h1> 
-            </div> 
-          </div> 
-        </div> 
-      </div>  -->
 
-
-  <section class="countersection" id="counter">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col"></div>
-        <div class="col">
-          <span class="icon-counter">
-            <i class="fas fa-solid fa-suitcase fa-5x"></i>
-          </span>
-          <span class="display-1 counter" data-target="3000"></span>
-          <p class="text-counter">Clients</p>
-        </div>
-        <div class="col">
-          <span class="icon-counter">
-            <i class="fas fa-user fa-5x"></i>
-          </span>
-          <span class="display-1 counter" data-target="180"></span>
-          <p class="text-counter">Employees</p>
-        </div>
-        <div class="col">
-          <span class="icon-counter">
-            <i class="fas fa-globe-americas fa-5x"></i>
-          </span>
-          <span class="display-1 counter" data-target="10000"></span>
-          <p class="text-counter">Daily users</p>
-        </div>
-        <div class="col"></div>
-
-      </div>
-    </div>
-  </section>
-
-
-  <section class="latestnews my-5 pb-5 bg-dark">
+  <section class="latestnews my-5 pb-5 bg-grey">
     <div class="container">
       <div class="row text-center">
-        <h3 class="color-white p-5">Latest News</h3>
+        <h3 class="title-text">Latest News</h3>
       </div>
       <div class="row">
-        <div class="col bg-light m-3 p-3">
-          <p class="date-news">27.07.2016</p>
-          <p class="text-news">Liana Technologies and Encode Solutions merge to create unique mobile solutions</p>
-        </div>
-        <div class="col bg-light m-3 p-3">
-          <p class="date-news">28.01.2016</p>
-          <p class="text-news">From a local startup to a global player: Liana Technologies among the forerunners of digital marketing technology</p>
-        </div>
-        <div class="col bg-light m-3 p-3">
-          <p class="date-news">02.07.2015</p>
-          <p class="text-news">Liana Technologies Hong Kong launched a series of digital marketing events in June</p>
+        <div class="col-lg-4 col-sm-12">
+          <div class="news-container">            
+            <p class="date-news">27.07.2016</p>
+            <p class="text-news">Liana Technologies and Encode Solutions merge to create unique mobile solutions</p>
+          </div>
+        </div>        
+        <div class="col-lg-4 col-sm-12">
+          <div class="news-container">            
+            <p class="date-news">28.01.2016</p>
+            <p class="text-news">From a local startup to a global player: Liana Technologies among the forerunners of digital marketing technology</p>
+          </div>
+        </div>        
+        <div class="col-lg-4 col-sm-12">
+          <div class="news-container">            
+            <p class="date-news">02.07.2015</p>
+            <p class="text-news">Liana Technologies Hong Kong launched a series of digital marketing events in June</p>
+          </div>
         </div>
       </div>
     </div>
@@ -214,7 +206,7 @@
   <section class="references">
     <div class="container">
       <div class="row text-center">
-        <h3 class="color-secondary p-5">References</h3>
+        <h3 class="title-text">References</h3>
       </div>
       <div class="row text-center">
         <div class="col">

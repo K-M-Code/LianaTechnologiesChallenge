@@ -4,6 +4,10 @@ Table of Contents
 1. Main Declarations
 2. Navbar
 3. Hero Section
+4. Infographics
+5. Counter Section
+6. Latest News
+
 
 */
 
@@ -11,10 +15,10 @@ Table of Contents
 
 :root {
     --color-white: white;
-    --color-primary: #3D8618;
+    --color-primary: #4c8930;
     --color-secondary: #495057;
-    --color-tertiary: #4c8930;
     --counter-TimeSeconds: 2;
+    --color-grey: #eceeef;
 } 
 
 body {
@@ -48,9 +52,11 @@ body {
     color: var(--color-secondary);
 }
 
-.color-tertiary {
-    color: var(--color-tertiary);
+.color-grey {
+    color: var(--color-grey);
 }
+
+
 
 .bg-white {
     background-color: var(--color-white) !important;
@@ -64,8 +70,8 @@ body {
     background-color: var(--color-secondary) !important;
 }
 
-.bg-tertiary {
-    background-color: var(--color-tertiary) !important;
+.bg-grey {
+    background-color: var(--color-grey) !important;
 }
 
 
@@ -89,35 +95,92 @@ body {
 
 /* 3. Hero Section */
 
-.hero {
-    text-align: center;
-}
-
 .parallax-section .parallax {
     height: 500px;
 }
 
+.hero-heading p {
+    padding: 10px;
+    font-size: 3rem;
+    font-weight: 300;
+}
 
-
-.hero .hero-heading {
-    color: var(--color-white);
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 1.2;
-    text-align: center;
+.parallax-section .btn {
+    font-size: 1.25rem;
 }
 
 
-.maintxt {
+/* 4. Infographics */
+
+.info-container {
     position: relative;
 }
-.maintxt > img, .overlay-text {
+
+.info-text {    
     position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+    font-size: 2rem;
+    font-weight: 500;
 }
 
 
+/* 5. Counter Section */
+.counter-section {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.counter-box {
+    padding: 1rem;
+}
+
+.counter {
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: left !important;
+}
+
+.text-counter {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+}
 
 .icon-counter {
-    display: block;
+    padding-top: 1.5rem;
+    padding-right: 2rem;
+    color: var(--color-primary);
+}
+
+
+/* 6. Latest News */
+
+.title-text {
     padding: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+}
+
+.news-container {
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 2.5px;
+    background-color: var(--color-white);
+    min-height: 150px;
+}
+
+.date-news {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--color-secondary);
+    padding-bottom: 0;
+}
+
+.text-news {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-secondary);
 }
