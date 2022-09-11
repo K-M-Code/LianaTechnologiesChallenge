@@ -7,7 +7,9 @@ Table of Contents
 4. Infographics
 5. Counter Section
 6. Latest News
-
+7. References
+8. Newsletter
+9. Footer
 
 */
 
@@ -183,4 +185,68 @@ body {
     font-size: 1rem;
     font-weight: 600;
     color: var(--color-secondary);
+}
+
+
+/* 7. References */
+
+.card {
+    margin: 0.5rem;
+}
+
+.card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card-title {
+    border-top: 0.5px solid var(--color-grey);
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+/* 8. Newsletter */
+
+.newsletter {
+    padding-top: 2rem;
+    border-top: 0.5px solid var(--color-grey);
+}
+
+.newsletter h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+}
+
+.newstext {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--color-secondary);
+}
+
+/* 9. Footer */
+.contact h3 {
+    padding-bottom: 2rem;
+}
+.contact {
+    line-height: 0.75rem;
+}
+
+.footer .nav a:nth-of-type(1) {
+    color: var(--color-white);
+}
+
+.footer .nav a:nth-of-type(2) {
+    color: var(--color-primary);
+}
+
+body > section.footer.bg-black.m-0.p-0.py-5 > ul > li > a > i {
+    color: var(--color-primary);
 }
