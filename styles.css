@@ -2,7 +2,8 @@
 Table of Contents
 
 1. Main Declarations
-2. 
+2. Navbar
+3. Hero Section
 
 */
 
@@ -68,6 +69,8 @@ body {
 }
 
 
+/* 2. Nav Bar */
+
 /* .topbar {
     position: relative; 
     z-index: 9999;
@@ -75,9 +78,16 @@ body {
 
 
 .navbar-logo {
-    padding: 10px;
-    height:55px;
+    padding: 5px;
+    height:60px;
 }
+
+.menu-main a {
+    color: var(--color-secondary);
+} 
+
+
+/* 3. Hero Section */
 
 .hero {
     text-align: center;
