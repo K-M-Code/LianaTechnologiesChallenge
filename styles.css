@@ -42,7 +42,7 @@ body {
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     width: 100%;
 }
 
@@ -89,8 +89,12 @@ body {
 /* 2. Nav Bar */
 
 .topbar {
-    padding: 25px !important; 
+    padding: 20px !important; 
+}
 
+.btn-secondary:hover {
+    background-color: var(--color-white) !important;
+    color: var(--color-secondary) !important;
 }
 
 .navbar-logo {
@@ -101,8 +105,16 @@ body {
     z-index: 100;
     filter: drop-shadow(0.5px 0.5px 3px rgba(0, 0, 0,0.5))
 }
-.menu-main a {
-    color: var(--color-secondary);
+
+.multi-navbar a {
+    color: var(--color-secondary) !important;
+}
+.menu-main ul a {
+    color: var(--color-secondary) !important;
+} 
+.menu-links a:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
 } 
 
 .multi-navbar  nav  ul  {
@@ -144,7 +156,6 @@ body {
 .parallax-section .btn:hover {
     background-color: var(--color-white);
     color: var(--color-primary);
-
 }
 
 
@@ -267,6 +278,16 @@ body {
     color: var(--color-secondary);
 }
 
+.newsletter button:hover {
+    background-color: var(--color-white) !important;
+    color: var(--color-primary) !important;
+}
+
+.modal button:hover {
+    background-color: var(--color-white) !important;
+    color: var(--color-primary) !important;
+}
+
 /* 9. Footer */
 .contact h3 {
     padding-bottom: 2rem;
@@ -281,4 +302,9 @@ body {
 
 .footer .nav a:nth-of-type(2) {
     color: var(--color-primary);
+}
+
+.footer button:hover {
+    background-color: var(--color-white) !important;
+    color: var(--color-primary) !important;
 }
