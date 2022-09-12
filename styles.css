@@ -15,6 +15,15 @@ Table of Contents
 
 /* 1. Main Declarations */
 
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --color-white: white;
     --color-primary: #4c8930;
@@ -33,7 +42,7 @@ body {
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     width: 100%;
 }
 
@@ -80,8 +89,8 @@ body {
 /* 2. Nav Bar */
 
 .topbar {
-    padding: 25px; 
-    z-index: 101;
+    padding: 25px !important; 
+
 }
 
 .navbar-logo {
@@ -96,7 +105,13 @@ body {
     color: var(--color-secondary);
 } 
 
-.multi-navbar > nav > ul li {
+.multi-navbar  nav  ul  {
+    background-color: var(--color-white);
+    color: var(--color-secondary);
+    max-height: 100vh;
+}
+
+.multi-navbar  nav  ul li {
     background-color: var(--color-white);
     color: var(--color-secondary);
 }
