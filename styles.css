@@ -132,6 +132,11 @@ body {
     background-color: var(--color-white);
 }
 
+.menu-main button:hover {
+    background-color: var(--color-white) !important;
+    color: var(--color-primary) !important;
+}
+
 
 /* 3. Hero Section */
 
