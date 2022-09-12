@@ -79,20 +79,31 @@ body {
 
 /* 2. Nav Bar */
 
-/* .topbar {
-    position: relative; 
-    z-index: 9999;
-} */
-
-
-.navbar-logo {
-    padding: 5px;
-    height:60px;
+.topbar {
+    padding: 25px; 
+    z-index: 101;
 }
 
+.navbar-logo {
+    padding: 8px;
+    height:60px;
+}
+.menu-main {
+    z-index: 100;
+    filter: drop-shadow(0.5px 0.5px 3px rgba(0, 0, 0,0.5))
+}
 .menu-main a {
     color: var(--color-secondary);
 } 
+
+.multi-navbar > nav > ul li {
+    background-color: var(--color-white);
+    color: var(--color-secondary);
+}
+
+.multi-navbar > nav > ul  {
+    background-color: var(--color-white);
+}
 
 
 /* 3. Hero Section */
@@ -109,6 +120,16 @@ body {
 
 .parallax-section .btn {
     font-size: 1.25rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    padding: 10px 20px;
+}
+
+.parallax-section .btn:hover {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+
 }
 
 
