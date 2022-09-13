@@ -42,7 +42,7 @@ body {
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden !important; */
     width: 100%;
 }
 
@@ -88,8 +88,16 @@ body {
 
 /* 2. Nav Bar */
 
-.topbar {
-    padding: 20px !important; 
+.topmenu {
+    width: 100%;
+    background-color: var(--color-primary);
+}
+
+.topmenu ul li {
+    padding-right: 10px; 
+    padding-top: 15px;
+    color: var(--color-white);
+    line-height: 1;
 }
 
 .btn-secondary:hover {
@@ -104,6 +112,10 @@ body {
 .menu-main {
     z-index: 100;
     filter: drop-shadow(0.5px 0.5px 3px rgba(0, 0, 0,0.5))
+}
+
+.dropdown-menu .show{
+    z-index: 999999;
 }
 
 .multi-navbar a {
